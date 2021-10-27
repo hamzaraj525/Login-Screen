@@ -18,9 +18,9 @@ export default class App extends Component {
     super();
     this.state = {
       name: '',
+      password: '',
       nameValidate: true,
       passwordValidate: true,
-      password: '',
     };
   }
 
